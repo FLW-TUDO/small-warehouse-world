@@ -27,7 +27,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # Get the launch directory
-    aws_small_warehouse_dir = get_package_share_directory('aws_robomaker_small_warehouse_world')
+    aws_small_warehouse_dir = get_package_share_directory('small_warehouse_world')
     gazebo_ros = get_package_share_directory('gazebo_ros')
     
     # Launch configuration variables specific to simulation

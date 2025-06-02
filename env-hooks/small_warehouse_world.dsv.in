@@ -1,0 +1,2 @@
+prepend-non-duplicate;GAZEBO_MODEL_PATH;share/small_warehouse_world/models
+prepend-non-duplicate;GAZEBO_MODEL_PATH;share/small_warehouse_world/worlds

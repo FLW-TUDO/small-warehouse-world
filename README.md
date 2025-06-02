@@ -36,7 +36,7 @@ This Gazebo world is well suited for organizations who are building and testing 
     from launch.launch_description_sources import PythonLaunchDescriptionSource
 
     def generate_launch_description():
-        warehouse_pkg_dir = get_package_share_directory('aws_robomaker_small_warehouse_world')
+        warehouse_pkg_dir = get_package_share_directory('small_warehouse_world')
         warehouse_launch_path = os.path.join(warehouse_pkg_dir, 'launch')
 
         warehouse_world_cmd = IncludeLaunchDescription(
@@ -77,7 +77,7 @@ colcon build
 
 # run in ROS2
 source install/setup.sh
-ros2 launch aws_robomaker_small_warehouse_world small_warehouse.launch.py
+ros2 launch small_warehouse_world small_warehouse.launch.py
 ```
 
 **Visit the [AWS RoboMaker website](https://aws.amazon.com/robomaker/) to learn more about building intelligent robotic applications with Amazon Web Services.**

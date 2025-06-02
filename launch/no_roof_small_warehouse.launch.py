@@ -26,10 +26,10 @@ def generate_launch_description():
         launch.actions.IncludeLaunchDescription(
             launch.launch_description_sources.PythonLaunchDescriptionSource(
                 [get_package_share_directory(
-                    'aws_robomaker_small_warehouse_world'), '/launch/small_warehouse.launch.py']
+                    'small_warehouse_world'), '/launch/small_warehouse.launch.py']
             ),
             launch_arguments={
-                'world': os.path.join(get_package_share_directory('aws_robomaker_small_warehouse_world'), 'worlds', 'no_roof_small_warehouse', 'no_roof_small_warehouse.world')
+                'world': os.path.join(get_package_share_directory('small_warehouse_world'), 'worlds', 'no_roof_small_warehouse', 'no_roof_small_warehouse.world')
             }.items()
         )
     ])
