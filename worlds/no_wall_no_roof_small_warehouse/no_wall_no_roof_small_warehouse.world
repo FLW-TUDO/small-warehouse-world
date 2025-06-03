@@ -2817,10 +2817,10 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>5172 233000000</sim_time>
-      <real_time>5372 817367944</real_time>
-      <wall_time>1748950674 808089400</wall_time>
-      <iterations>5172233</iterations>
+      <sim_time>5246 567000000</sim_time>
+      <real_time>74 601325134</real_time>
+      <wall_time>1748957822 719859010</wall_time>
+      <iterations>74334</iterations>
       <model name='aws_robomaker_warehouse_Bucket_01_020'>
         <pose>0.433449 9.63171 0 0 0 -1.56316</pose>
         <scale>1 1 1</scale>
@@ -2902,7 +2902,7 @@
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringC_01_029'>
-        <pose>5.38424 6.13715 0 0 -0 -3.13319</pose>
+        <pose>5.38424 6.13715 0 0 0 -3.13319</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringC_01::link'>
           <pose>5.38424 6.13715 0 0 -0 -3.13319</pose>
@@ -2912,7 +2912,7 @@
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringC_01_030'>
-        <pose>3.236 6.13715 0 0 -0 -3.13319</pose>
+        <pose>3.236 6.13715 0 0 0 -3.13319</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringC_01::link'>
           <pose>3.236 6.13715 0 0 -0 -3.13319</pose>
@@ -3222,10 +3222,10 @@
         </link>
       </model>
       <model name='qr_box_marker_6'>
-        <pose>-5.04703 -3.23111 5.75507 -1.57082 0.005164 -1.57528</pose>
+        <pose>-5.04703 -3.23142 5.81405 -1.57082 0.005164 -1.57528</pose>
         <scale>1 1 1</scale>
         <link name='qr_box_marker_6::link'>
-          <pose>-5.04703 -3.23111 5.75507 -1.57082 0.005164 -1.57528</pose>
+          <pose>-5.04703 -3.23142 5.81405 -1.57082 0.005164 -1.57528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -3267,7 +3267,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>10.632 21.7129 19.8104 -0 0.681796 -1.82197</pose>
+        <pose>-0.937797 -2.3918 6.8966 0 0.465796 -2.44997</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
