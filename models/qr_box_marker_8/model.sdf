@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="qr_box_marker_8">
+    <static>true</static>
+    <link name="link">
+      <pose>-0.982347 -0.129249 -0.375443 0 -0.068818 0</pose>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <!-- Top face with QR code texture -->
+      <visual name="top_face">
+        <geometry>
+          <box>
+            <size>0.25 0.25 0.01</size> <!-- Reduced dimensions to half -->
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://qr_box_marker_8/materials/scripts</uri>
+            <uri>model://qr_box_marker_8/materials/textures/qr_code_8.png</uri>
+            <name>qr_code_material</name>
+          </script>
+        </material>
+        <pose>0 0 0.125 0 0 0</pose>
+      </visual>
+
+      <!-- Side faces with flat color -->
+      <visual name="side_faces">
+        <geometry>
+          <box>
+            <size>0.25 0.25 0.25</size> <!-- Reduced dimensions to half -->
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.0 0.6 0.9 1</ambient>    <!-- Light blue -->
+          <diffuse>0.0 0.6 0.9 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+      <!-- Collision box -->
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.25 0.25 0.25</size> <!-- Reduced dimensions to half -->
+          </box>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

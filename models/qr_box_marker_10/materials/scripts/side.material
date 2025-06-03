@@ -1,0 +1,14 @@
+material side_material
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aws_robomaker_warehouse_02.png
+        scale 1 1
+      }
+    }
+  }
+}

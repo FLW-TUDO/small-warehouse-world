@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <sdf version='1.7'>
   <world name='default'>
     <gravity>0 0 -9.8</gravity>
@@ -1579,6 +1578,1226 @@
         <falloff>0</falloff>
       </spot>
     </light>
+    <model name='qr_box_marker_1'>
+      <frame name='qr_box_marker_1::__model__' attached_to='qr_box_marker_1::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_1::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_1/materials/scripts</uri>
+              <uri>model://qr_box_marker_1/materials/textures</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_1::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0 0 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_2'>
+      <frame name='qr_box_marker_2::__model__' attached_to='qr_box_marker_2::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_2::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_2/materials/scripts</uri>
+              <uri>model://qr_box_marker_2/materials/textures</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_2::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.75 -1 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_3'>
+      <frame name='qr_box_marker_3::__model__' attached_to='qr_box_marker_3::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_3::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_3/materials/scripts</uri>
+              <uri>model://qr_box_marker_3/materials/textures/qr_code_3.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_3::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.75 2 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_4'>
+      <frame name='qr_box_marker_4::__model__' attached_to='qr_box_marker_4::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_4::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_4/materials/scripts</uri>
+              <uri>model://qr_box_marker_4/materials/textures/qr_code_4.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_4::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.75 6 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_5'>
+      <frame name='qr_box_marker_5::__model__' attached_to='qr_box_marker_5::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_5::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_5/materials/scripts</uri>
+              <uri>model://qr_box_marker_5/materials/textures/qr_code_5.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_5::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>3 2.2 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_6'>
+      <frame name='qr_box_marker_6::__model__' attached_to='qr_box_marker_6::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_6::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_6/materials/scripts</uri>
+              <uri>model://qr_box_marker_6/materials/textures/qr_code_6.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_6::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>6 2.2 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_7'>
+      <frame name='qr_box_marker_7::__model__' attached_to='qr_box_marker_7::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_7::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_7/materials/scripts</uri>
+              <uri>model://qr_box_marker_7/materials/textures/qr_code_7.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_7::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.75 -4 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_8'>
+      <frame name='qr_box_marker_8::__model__' attached_to='qr_box_marker_8::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_8::link'>
+        <pose relative_to='qr_box_marker_8::__model__'>-0.982347 -0.129249 -0.375443 0 -0.068818 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_8/materials/scripts</uri>
+              <uri>model://qr_box_marker_8/materials/textures/qr_code_8.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+      </link>
+      <pose>4 -8 1 -1.571 0 0</pose>
+    </model>
+    <model name='qr_box_marker_9'>
+      <frame name='qr_box_marker_9::__model__' attached_to='qr_box_marker_9::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_9::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_9/materials/scripts</uri>
+              <uri>model://qr_box_marker_9/materials/textures/qr_code_9.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_9::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.75 -10 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_10'>
+      <frame name='qr_box_marker_10::__model__' attached_to='qr_box_marker_10::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_10::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_10/materials/scripts</uri>
+              <uri>model://qr_box_marker_10/materials/textures/qr_code_10.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_10::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.75 10 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_11'>
+      <frame name='qr_box_marker_11::__model__' attached_to='qr_box_marker_11::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_11::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_11/materials/scripts</uri>
+              <uri>model://qr_box_marker_11/materials/textures/qr_code_11.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_11::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>4 -2 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_12'>
+      <frame name='qr_box_marker_12::__model__' attached_to='qr_box_marker_12::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_12::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_12/materials/scripts</uri>
+              <uri>model://qr_box_marker_12/materials/textures/qr_code_12.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_12::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>6 -4 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_13'>
+      <frame name='qr_box_marker_13::__model__' attached_to='qr_box_marker_13::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_13::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_13/materials/scripts</uri>
+              <uri>model://qr_box_marker_13/materials/textures/qr_code_13.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_13::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-4 6 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_14'>
+      <frame name='qr_box_marker_14::__model__' attached_to='qr_box_marker_14::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_14::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_14/materials/scripts</uri>
+              <uri>model://qr_box_marker_14/materials/textures/qr_code_14.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_14::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-4 10 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_15'>
+      <frame name='qr_box_marker_15::__model__' attached_to='qr_box_marker_15::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_15::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_15/materials/scripts</uri>
+              <uri>model://qr_box_marker_15/materials/textures/qr_code_15.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_15::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-4 -1 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_16'>
+      <frame name='qr_box_marker_16::__model__' attached_to='qr_box_marker_16::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_16::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_16/materials/scripts</uri>
+              <uri>model://qr_box_marker_16/materials/textures/qr_code_16.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_16::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-4 -4 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_17'>
+      <frame name='qr_box_marker_17::__model__' attached_to='qr_box_marker_17::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_17::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_17/materials/scripts</uri>
+              <uri>model://qr_box_marker_17/materials/textures/qr_code_17.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_17::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>5 -6 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_18'>
+      <frame name='qr_box_marker_18::__model__' attached_to='qr_box_marker_18::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_18::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_18/materials/scripts</uri>
+              <uri>model://qr_box_marker_18/materials/textures/qr_code_18.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_18::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-4 -10 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_19'>
+      <frame name='qr_box_marker_19::__model__' attached_to='qr_box_marker_19::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_19::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_19/materials/scripts</uri>
+              <uri>model://qr_box_marker_19/materials/textures/qr_code_19.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_19::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-5 9 0.125 0 -0 0</pose>
+    </model>
+    <model name='qr_box_marker_20'>
+      <frame name='qr_box_marker_20::__model__' attached_to='qr_box_marker_20::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='qr_box_marker_20::link'>
+        <visual name='top_face'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://qr_box_marker_20/materials/scripts</uri>
+              <uri>model://qr_box_marker_20/materials/textures/qr_code_20.png</uri>
+              <name>qr_code_material</name>
+            </script>
+          </material>
+          <pose>0 0 0.125 0 -0 0</pose>
+        </visual>
+        <visual name='side_faces'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0.6 0.9 1</ambient>
+            <diffuse>0 0.6 0.9 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.25</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='qr_box_marker_20::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-6 9 0.125 0 -0 0</pose>
+    </model>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
     <scene>
@@ -1598,10 +2817,10 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>68 881000000</sim_time>
-      <real_time>69 131545417</real_time>
-      <wall_time>1748338125 700050234</wall_time>
-      <iterations>68881</iterations>
+      <sim_time>5172 233000000</sim_time>
+      <real_time>5372 817367944</real_time>
+      <wall_time>1748950674 808089400</wall_time>
+      <iterations>5172233</iterations>
       <model name='aws_robomaker_warehouse_Bucket_01_020'>
         <pose>0.433449 9.63171 0 0 0 -1.56316</pose>
         <scale>1 1 1</scale>
@@ -1733,10 +2952,10 @@
         </link>
       </model>
       <model name='aws_robomaker_warehouse_GroundB_01_001'>
-        <pose>0 0 -0.090092 0 -0 0</pose>
+        <pose>-0.082019 0.084712 -0.090092 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_GroundB_01::link'>
-          <pose>0 0 -0.090092 0 -0 0</pose>
+          <pose>-0.082019 0.084712 -0.090092 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -1842,13 +3061,213 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='qr_box_marker_1'>
+        <pose>-0.97692 1.42304 1.46008 1.58342 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_1::link'>
+          <pose>-0.97692 1.42304 1.46008 1.58342 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_10'>
+        <pose>2.83956 6.60611 1.89463 0 -1.56809 0</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_10::link'>
+          <pose>2.83956 6.60611 1.89463 0 -1.56809 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_11'>
+        <pose>3.44827 -3.03088 2.64547 -1.51928 0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_11::link'>
+          <pose>3.44827 -3.03088 2.64547 -1.51928 0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_12'>
+        <pose>4.10109 -1.28509 2.65949 -1.58665 0.000939 0.059159</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_12::link'>
+          <pose>4.10109 -1.28509 2.65949 -1.58665 0.000939 0.059159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_13'>
+        <pose>-5.42175 6 2.71572 3.14159 1.5701 3.14159</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_13::link'>
+          <pose>-5.42175 6 2.71572 3.14159 1.5701 3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_14'>
+        <pose>-5.40003 5.77804 5.30717 3.14159 1.54304 3.14159</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_14::link'>
+          <pose>-5.40003 5.77804 5.30717 3.14159 1.54304 3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_15'>
+        <pose>-5.41345 0.745299 2.71646 3.14159 1.55548 3.14159</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_15::link'>
+          <pose>-5.41345 0.745299 2.71646 3.14159 1.55548 3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_16'>
+        <pose>-5.61179 -4.00324 2.7167 3.14159 1.55006 3.14159</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_16::link'>
+          <pose>-5.61179 -4.00324 2.7167 3.14159 1.55006 3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_17'>
+        <pose>3.27509 -6.6748 2.63101 -1.57481 0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_17::link'>
+          <pose>3.27509 -6.6748 2.63101 -1.57481 0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_18'>
+        <pose>-5.21894 -7.2186 2.41302 -3.11711 1.51687 -3.11088</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_18::link'>
+          <pose>-5.21894 -7.2186 2.41302 -3.11711 1.51687 -3.11088</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_19'>
+        <pose>-5.56108 4.6757 2.74738 -3.06298 1.51028 -3.06557</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_19::link'>
+          <pose>-5.56108 4.6757 2.74738 -3.06298 1.51028 -3.06557</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_2'>
+        <pose>-5.0209 -7.96652 4.93196 1.98565 1.55962 2.13802</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_2::link'>
+          <pose>-5.0209 -7.96652 4.93196 1.98565 1.55962 2.13802</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_20'>
+        <pose>-5.05802 -0.403435 6.25355 0 1.55901 0</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_20::link'>
+          <pose>-5.05802 -0.403435 6.25355 0 1.55901 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_3'>
+        <pose>2.42021 3.37329 1.48272 3.14159 -1.5587 3.14159</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_3::link'>
+          <pose>2.42021 3.37329 1.48272 3.14159 -1.5587 3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_4'>
+        <pose>-1.04472 5.06942 1.19301 1.57476 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_4::link'>
+          <pose>-1.04472 5.06942 1.19301 1.57476 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_5'>
+        <pose>-1.06168 9.2099 1.8859 1.58858 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_5::link'>
+          <pose>-1.06168 9.2099 1.8859 1.58858 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_6'>
+        <pose>-5.04703 -3.23111 5.75507 -1.57082 0.005164 -1.57528</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_6::link'>
+          <pose>-5.04703 -3.23111 5.75507 -1.57082 0.005164 -1.57528</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_7'>
+        <pose>-1.36191 -8.17067 1.63261 0 1.5704 0</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_7::link'>
+          <pose>-1.36191 -8.17067 1.63261 0 1.5704 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_8'>
+        <pose>4.12513 -8.17087 1.00004 -1.571 -1.4e-05 -0.066579</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_8::link'>
+          <pose>3.11998 -8.4801 1.12935 -1.571 -0 0.002239</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='qr_box_marker_9'>
+        <pose>4.18185 -8.53078 1.12492 -1.57412 0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='qr_box_marker_9::link'>
+          <pose>4.18185 -8.53078 1.12492 -1.57412 0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <light name='Warehouse_CeilingLight_003'>
         <pose>0 0 9 0 -0 0</pose>
       </light>
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>35.0379 -34.0793 13.3531 0 0.275643 2.35619</pose>
+        <pose>10.632 21.7129 19.8104 -0 0.681796 -1.82197</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

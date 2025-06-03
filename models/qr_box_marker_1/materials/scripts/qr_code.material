@@ -1,0 +1,14 @@
+material qr_code_material
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture qr_code_1.png
+        scale 1 1
+      }
+    }
+  }
+}

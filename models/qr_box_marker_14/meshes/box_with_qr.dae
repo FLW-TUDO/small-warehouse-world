@@ -1,0 +1,63 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Your Name</author>
+      <authoring_tool>Custom Tool</authoring_tool>
+    </contributor>
+    <created>2025-06-01T15:30:40</created>
+    <modified>2025-06-01T15:30:40</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_geometries>
+    <geometry id="box_with_qr" name="BoxWithQR">
+      <mesh>
+        <source id="box_positions">
+          <float_array id="box_positions_array" count="24">-0.5 -0.5 0.5  0.5 -0.5 0.5  0.5 0.5 0.5  -0.5 0.5 0.5  -0.5 -0.5 -0.5  0.5 -0.5 -0.5  0.5 0.5 -0.5  -0.5 0.5 -0.5</float_array>
+          <technique_common>
+            <accessor source="#box_positions_array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="box_uv">
+          <float_array id="box_uv_array" count="16">0 0  1 0  1 1  0 1  0 0  1 0  1 1  0 1</float_array>
+          <technique_common>
+            <accessor source="#box_uv_array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="box_vertices">
+          <input semantic="POSITION" source="#box_positions"/>
+        </vertices>
+        <triangles count="12">
+          <input semantic="VERTEX" source="#box_vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#box_uv" offset="1"/>
+          <p>0 0 1 1 2 2  0 0 2 2 3 3  4 4 5 5 6 6  4 4 6 6 7 7</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="BoxWithQR" name="BoxWithQR">
+        <instance_geometry url="#box_with_qr">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material" target="#Material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
