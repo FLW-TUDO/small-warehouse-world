@@ -1,4 +1,4 @@
-material qr_code_material
+material qr_code_material_8
 {
   technique
   {

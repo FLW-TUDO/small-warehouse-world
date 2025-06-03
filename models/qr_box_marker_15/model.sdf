@@ -15,7 +15,7 @@
           <script>
             <uri>model://qr_box_marker_15/materials/scripts</uri>
             <uri>model://qr_box_marker_15/materials/textures/qr_code_15.png</uri>
-            <name>qr_code_material</name>
+            <name>qr_code_material_15</name>
           </script>
         </material>
         <pose>0 0 0.125 0 0 0</pose>

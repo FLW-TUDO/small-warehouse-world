@@ -18,7 +18,7 @@
           <script>
             <uri>model://qr_box_marker_8/materials/scripts</uri>
             <uri>model://qr_box_marker_8/materials/textures/qr_code_8.png</uri>
-            <name>qr_code_material</name>
+            <name>qr_code_material_8</name>
           </script>
         </material>
         <pose>0 0 0.125 0 0 0</pose>

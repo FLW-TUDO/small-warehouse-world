@@ -1594,7 +1594,7 @@
             <script>
               <uri>model://qr_box_marker_1/materials/scripts</uri>
               <uri>model://qr_box_marker_1/materials/textures</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_1</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -1655,7 +1655,7 @@
             <script>
               <uri>model://qr_box_marker_2/materials/scripts</uri>
               <uri>model://qr_box_marker_2/materials/textures</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_2</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -1716,7 +1716,7 @@
             <script>
               <uri>model://qr_box_marker_3/materials/scripts</uri>
               <uri>model://qr_box_marker_3/materials/textures/qr_code_3.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_3</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -1777,7 +1777,7 @@
             <script>
               <uri>model://qr_box_marker_4/materials/scripts</uri>
               <uri>model://qr_box_marker_4/materials/textures/qr_code_4.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_4</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -1838,7 +1838,7 @@
             <script>
               <uri>model://qr_box_marker_5/materials/scripts</uri>
               <uri>model://qr_box_marker_5/materials/textures/qr_code_5.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_5</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -1899,7 +1899,7 @@
             <script>
               <uri>model://qr_box_marker_6/materials/scripts</uri>
               <uri>model://qr_box_marker_6/materials/textures/qr_code_6.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_6</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -1960,7 +1960,7 @@
             <script>
               <uri>model://qr_box_marker_7/materials/scripts</uri>
               <uri>model://qr_box_marker_7/materials/textures/qr_code_7.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_7</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2025,7 +2025,7 @@
             <script>
               <uri>model://qr_box_marker_8/materials/scripts</uri>
               <uri>model://qr_box_marker_8/materials/textures/qr_code_8.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_8</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2082,7 +2082,7 @@
             <script>
               <uri>model://qr_box_marker_9/materials/scripts</uri>
               <uri>model://qr_box_marker_9/materials/textures/qr_code_9.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_9</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2143,7 +2143,7 @@
             <script>
               <uri>model://qr_box_marker_10/materials/scripts</uri>
               <uri>model://qr_box_marker_10/materials/textures/qr_code_10.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_10</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2204,7 +2204,7 @@
             <script>
               <uri>model://qr_box_marker_11/materials/scripts</uri>
               <uri>model://qr_box_marker_11/materials/textures/qr_code_11.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_11</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2265,7 +2265,7 @@
             <script>
               <uri>model://qr_box_marker_12/materials/scripts</uri>
               <uri>model://qr_box_marker_12/materials/textures/qr_code_12.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_12</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2326,7 +2326,7 @@
             <script>
               <uri>model://qr_box_marker_13/materials/scripts</uri>
               <uri>model://qr_box_marker_13/materials/textures/qr_code_13.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_13</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2387,7 +2387,7 @@
             <script>
               <uri>model://qr_box_marker_14/materials/scripts</uri>
               <uri>model://qr_box_marker_14/materials/textures/qr_code_14.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_14</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2448,7 +2448,7 @@
             <script>
               <uri>model://qr_box_marker_15/materials/scripts</uri>
               <uri>model://qr_box_marker_15/materials/textures/qr_code_15.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_15</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2509,7 +2509,7 @@
             <script>
               <uri>model://qr_box_marker_16/materials/scripts</uri>
               <uri>model://qr_box_marker_16/materials/textures/qr_code_16.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_16</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2570,7 +2570,7 @@
             <script>
               <uri>model://qr_box_marker_17/materials/scripts</uri>
               <uri>model://qr_box_marker_17/materials/textures/qr_code_17.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_17</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2631,7 +2631,7 @@
             <script>
               <uri>model://qr_box_marker_18/materials/scripts</uri>
               <uri>model://qr_box_marker_18/materials/textures/qr_code_18.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_18</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2692,7 +2692,7 @@
             <script>
               <uri>model://qr_box_marker_19/materials/scripts</uri>
               <uri>model://qr_box_marker_19/materials/textures/qr_code_19.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_19</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
@@ -2753,7 +2753,7 @@
             <script>
               <uri>model://qr_box_marker_20/materials/scripts</uri>
               <uri>model://qr_box_marker_20/materials/textures/qr_code_20.png</uri>
-              <name>qr_code_material</name>
+              <name>qr_code_material_20</name>
             </script>
           </material>
           <pose>0 0 0.125 0 -0 0</pose>
